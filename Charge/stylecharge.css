@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+.main{
+    height: 270px;
+    width: 180px;
+    border-radius: 10px;
+}
+.batterytop{
+    height: 20px;
+    width: 100%;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.tip{
+    height: 15px;
+    width: 35px;
+    background:black;
+    border: 3px solid white;
+    border-radius: 8px 8px 0px 0px;
+}
+.batterybottom{
+    height: 250px;
+    width: 100%;
+    border-radius: 18px;
+    background:black;
+    border: 3px solid white;
+    position: relative;
+}
+.charge{
+    height: 0%;
+    width: 100%;
+    background: orange;
+    position: absolute;
+    bottom: 0;
+    border-radius: 18px;
+    animation: battery 5s linear infinite;
+}
+
+@keyframes battery{
+    0% {
+        height: 0%;
+        background: red;
+    }
+    25% {
+        height: 25%;
+        background: orange;
+    }
+    50% {
+        height: 50%;
+        background: yellow;
+    }
+    75% {
+        height: 75%;
+        background: #d7fc03;
+    }
+    
+    100% {
+        height: 100%;
+        background: rgb(0,255,0);
+    }
+}
