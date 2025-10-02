@@ -19,7 +19,8 @@ You can click on any project below to see it **live in action** (if using GitHub
 
 ## 📂 Projects
 
-### 1. [Charge Project](./Charge/charge.html)
+### 1. [Charge Project](https://SohamKale83.github.io/html-css-playground/Charge/charge.html)
+
 A mini project demonstrating CSS animations and interactive UI using HTML and CSS.
 
 *(Click the link above to see the animation live!)*
