@@ -10,15 +10,15 @@ A collection of mini-projects exploring HTML and CSS with animations, interactiv
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/html-css-playground.git
+   git clone https://github.com/SohamKale83/html-css-playground.git
 📂 Projects
-### 1. Charge Project 
+### 1. [Charge Project](https://SohamKale83.github.io/html-css-playground/Charge/charge.html)
 
 A mini project demonstrating CSS animations and interactive UI using HTML and CSS.
 
 (Click the link above to see it live!)
 
-### 2. Hover Project
+### 2. [Hover Project](https://SohamKale83.github.io/html-css-playground/Hover/projects.html)
 
 A mini project showcasing hover effects and interactive styling with HTML and CSS.
 
