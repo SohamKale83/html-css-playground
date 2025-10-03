@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: "Delius", cursive;
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
+.head{
+    font-size: 35px;
+    color: white;
+    top: 50px;
+    left: 410px;
+    position: absolute;
+}
+.cat{
+    position: relative;
+    top: 160px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.big{
+    padding: 5px;
+    height: 300px;
+    width: 290px;
+    background-color: white;
+    transition: height 0.3s ease-in-out;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+.WW1,.WW2,.WW3,.WW4{
+    height: 300px;
+    width: 230px;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,-10%);
+}
+.WW1{
+    background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/streams/2013/August/130808/6C8560752-34628450-63ac-0450-b9d3-f4075ef2312b-bbs5b-gallery-0858-rgb-v1.jpg);
+}
+.WW2{
+    background-image: url(https://static.wikia.nocookie.net/breakingbad/images/d/d9/BB_S4_Saul_Goodman.png/revision/latest/scale-to-width-down/250?cb=20221109004623&path-prefix=es);
+}
+.WW3{
+    background-image: url(https://wallpapercat.com/w/full/0/f/a/184100-2160x3840-samsung-4k-breaking-bad-background-image.jpg);
+}
+.WW4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9fHgLQMbD2eWwq-rNNUPmGFGb_Se98J_uqhJRTSUZoHMqpn7gz8NuzLqiW1QBHslFFwY&usqp=CAU);
+}
+.hidden-text1,.hidden-text2,.hidden-text3,.hidden-text4{
+    opacity: 0;
+    font-size: 22px;
+    transition: opacity 0.3s ease-in-out;
+    text-align: center;
+}
+.hidden-text1{
+    color: brown;
+}
+.hidden-text2{
+    color: red;
+}
+.hidden-text3{
+    color: purple;
+}
+.hidden-text4{
+    color: black;
+}
+.big:hover{
+    height: 350px;
+}
+.big:hover .hidden-text1{
+    opacity: 1;
+}
+.big:Hover .hidden-text2{
+    opacity: 1;
+}
+.big:hover .hidden-text3{
+    opacity: 1;
+}
+.big:hover .hidden-text4{
+    opacity: 1;
+}
+::selection{
+    color: red;
+    background-color: black;
+}
