@@ -8,7 +8,7 @@ html,body{
     font-family: "Delius", cursive;
     height: 100%;
     width: 100%;
-    background-color: grey;
+    background-color: #706f8b;
 }
 .head{
     font-size: 35px;
@@ -50,7 +50,7 @@ html,body{
     background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/streams/2013/August/130808/6C8560752-34628450-63ac-0450-b9d3-f4075ef2312b-bbs5b-gallery-0858-rgb-v1.jpg);
 }
 .WW2{
-    background-image: url(https://static.wikia.nocookie.net/breakingbad/images/d/d9/BB_S4_Saul_Goodman.png/revision/latest/scale-to-width-down/250?cb=20221109004623&path-prefix=es);
+    background-image: url(Saul\ Goodman.webp);
 }
 .WW3{
     background-image: url(https://wallpapercat.com/w/full/0/f/a/184100-2160x3840-samsung-4k-breaking-bad-background-image.jpg);
